@@ -1,0 +1,2 @@
+main theme : #029cb2
+alternate: #F6B10C

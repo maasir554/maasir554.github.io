@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanskriti - Image display gallery</title>
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/donate.css" />
+    <style>
+      .gallery-box {
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      .gallery-box img {
+        height: 300px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        transition: 0.5s;
+      }
+      .gallery-box img:hover {
+        /* opacity: 0.8; */
+        transition: 0.5s;
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+      @media only screen and (max-width: 615px) {
+        .gallery-box img {
+          height: auto;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navBar">
+          <span class="navContent" id="logoBox">Sanskriti</span>
+          <ul class="navContent" id="navLinks">
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/news.html">NEWS</a></li>
+            <li><a href="/donate.html">DONATE</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+            <li class="currentPage"><a href="/gallery.html">GALLERY</a></li>
+          </ul>
+          <div class="navSearch navContent">
+            <input type="search" placeholder="Type here to search..." />
+            <button class="btnSearch">Search</button>
+          </div>
+        </nav>
+      </header>
+
+      <section class="mainBodyElement">
+        <h1 class="mainHeading">Our Hotel Interiors</h1>
+        <div class="gallery-box">
+          <img src="./images/img-4.jpg" alt="Hotel" />
+
+          <img src="./images/img-5.jpg" alt="Hotel" />
+          <img src="./images/img-6.jpg" alt="Hotel" />
+          <img src="./images/img-3.jpg" alt="Hotel" />
+          <img src="./images/img-7.jpg" alt="Hotel" />
+          <img src="./images/img-8.jpg" alt="Hotel" />
+          <img src="./images/img-26.jpg" alt="Hotel" />
+
+          <img src="./images/img-10.jpg" alt="Hotel" />
+
+          <img src="./images/img-9.jpg" alt="Hotel" />
+        </div>
+      </section>
+      <section class="mainBodyElement">
+        <h1 class="mainHeading">Our Hotel ambience</h1>
+        <div class="gallery-box">
+          <img src="./images/img-25.jpg" alt="Hotel" />
+          <img src="./images/img-2-min.jpg" alt="Hotel" />
+          <img src="./images/img-1.jpg" alt="Hotel" />
+          <img src="./images/img-30.jpg" alt="Hotel" />
+          <img src="./images/img-3.jpg" alt="Hotel" />
+          <img src="./images/img-28.jpg" alt="Hotel" />
+        </div>
+      </section>
+      <section class="mainBodyElement">
+        <h1 class="mainHeading">Food and Cuisines</h1>
+        <div class="gallery-box">
+          <img src="./images/img-35.jpg" alt="Hotel" />
+          <img src="./images/img-36.jpg" alt="Hotel" />
+          <img src="./images/img-38.jpg" alt="Hotel" />
+          <img src="./images/img-20.jpg" alt="Hotel" />
+          <img src="./images/img-39.jpg" alt="Hotel" />
+          <img src="./images/img-37.jpg" alt="Hotel" />
+          <img src="./images/img-19.jpg" alt="Hotel" />
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><h3>Sanskriti Hotels</h3></li>
+          <li>
+            Sanskriti Head Office,<br />
+            193-B, Juhu Beach,<br />
+            Mumbai<br />
+            Maharashtra, India
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h4>QUICK LINKS</h4>
+          </li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Sanskriti</a></li>
+          <li><a href="./contact.html">ContactNews Feed</a></li>
+          <li><a href="./donate.html">Registration</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h4>CUSTOMER CARE</h4>
+          </li>
+          <li><a href="https://github.com/maasir554">Report an issue</a></li>
+          <li><a href="https://github.com/maasir554">buisness mail</a></li>
+          <li><a href="https://github.com/maasir554">Refund Policy</a></li>
+          <li>
+            <a href="https://github.com/maasir554">Terms and Conditions</a>
+          </li>
+          <li><a href="https://github.com/maasir554">Call us</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h4>LEGAL</h4>
+          </li>
+          <li><a href="https://github.com/maasir554">Cookie policy</a></li>
+          <li>
+            <a href="https://github.com/maasir554">Advertisments policy</a>
+          </li>
+          <li><a href="https://github.com/maasir554">Refund Policy</a></li>
+          <li><a href="https://github.com/maasir554">Privacy Policy</a></li>
+          <li>
+            <a href="https://github.com/maasir554">Site usage aggrement</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4>SOCIAL MEDIA HANDELS</h4>
+          </li>
+          <li><a href="https://github.com/maasir554">Facebook</a></li>
+          <li><a href="https://github.com/maasir554">Instagram</a></li>
+          <li><a href="https://github.com/maasir554">Twitter</a></li>
+          <li><a href="https://github.com/maasir554">YouTube</a></li>
+          <li><a href="https://github.com/maasir554">LinkedIn</a></li>
+        </ul>
+
+        <div class="newsLetter">
+          <h4>SUBSCRIBE TO OUR NEWS LETTER :</h4>
+          <br />
+          <span style="display: flex; margin-bottom: 10px">
+            <input type="email" placeholder="enter email address." />
+            <button class="btnSearch">SUBSCRIBE</button>
+          </span>
+          <br />
+          <h4>CONNECT WITH US ON :</h4>
+          <span
+            style="
+              display: flex;
+              margin-bottom: 10px;
+              justify-content: space-around;
+            "
+          >
+            <a href="https://www.facebook.com/">
+              <img
+                class="social-media-icon"
+                alt="social media icon"
+                src="./icons/fb.png"
+              />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img
+                class="social-media-icon"
+                alt="social media icon"
+                src="./icons/insta.png"
+              />
+            </a>
+            <a href="https://www.linkedin.com/">
+              <img
+                class="social-media-icon"
+                alt="social media icon"
+                src="./icons/in.png"
+              />
+            </a>
+            <a href="https://www.twitter.com/">
+              <img
+                class="social-media-icon"
+                alt="social media icon"
+                src="./icons/tw.png"
+              />
+            </a>
+            <a href="https://www.youtube.com/">
+              <img
+                class="social-media-icon"
+                alt="social media icon"
+                src="./icons/yt.png"
+              />
+            </a>
+          </span>
+        </div>
+
+        <div class="copyright">
+          <hr />
+          <p>
+            Copyright &copy; 2022 Sanskriti Hotel Chain, All rights reserved.
+            &reg;
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

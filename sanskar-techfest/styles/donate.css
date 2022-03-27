@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  width: 100%;
+  padding: 10px;
+}
+form label,
+form input,
+form select,
+textarea {
+  width: 100%;
+  margin: 7.5px;
+  border-radius: 5px;
+}
+form input,
+form select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #f6b10c;
+}
+form input[type="submit"] {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+form input[type="submit"]:hover {
+  background-color: rgba(246, 176, 12, 1);
+  transition: 0.3s;
+}
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  resize: vertical;
+  border: 1px solid #f6b10c;
+  background-color: rgba(246, 176, 12, 0.1);
+}
+form input:focus,
+form textarea:focus,
+form select:focus {
+  outline: none;
+  box-shadow: 0 0 7.5px rgba(246, 176, 12, 0.75);
+}
+@media only screen and (max-width: 310px) {
+  .about-card img {
+    height: auto !important;
+    width: 100% !important;
+  }
+}

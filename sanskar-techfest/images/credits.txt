@@ -1,0 +1,32 @@
+img-1 : pixabay - CCO (No attribution Required)
+img-2 : Photo by Donald Tong from Pexels
+img-3, img-4, img-5, img-6: pixabay - CCO
+img-7 : Photo by Jean van der Meulen from Pexels
+img-8 : Photo by Jonathan Borba from Pexels
+img-9 : Photo by Quark Studio from Pexels
+img-10 : Photo by Max Vakhtbovych from Pexels
+img-11:Photo by Wolfram K from Pexels
+img-12:Photo by Nextvoyage from Pexels
+img-14:Photo by Quintin Gellar from Pexels
+img-15: Photo by Harun Tan from Pexels
+img-16:Photo by Lukas Kloeppel from Pexels
+img-17 : Photo by Vincent M.A. Janssen from Pexels
+img-18:Photo by sarthak from Pexels
+img-19:Photo by Arthur Brognoli from Pexels
+img-20: Photo by Prajjwal Budhathoki from Pexels
+img-21: Photo by cottonbro from Pexels
+img-22:Photo by Chan Walrus: https://www.pexels.com/photo/cooked-dish-serve-on-black-tray-958547/
+img-23: Photo by RODNAE Productions: https://www.pexels.com/photo/man-love-people-woman-6647119/
+img-24: Photo by Lagos Food Bank Initiative: https://www.pexels.com/photo/people-sitting-on-the-floor-9090747/
+img-25: Photo by Daria Shevtsova: https://www.pexels.com/photo/opened-window-1578249/
+img-26: Photo by Ekrulila: https://www.pexels.com/photo/elegant-historic-interior-11061420/
+img-27: Photo by RODNAE Productions: https://www.pexels.com/photo/man-love-people-woman-6646993/
+img-28:Photo by Asad Photo Maldives: https://www.pexels.com/photo/aerial-view-of-a-beautiful-island-resort-3601425/
+img-33 :Photo by Liza Summer: https://www.pexels.com/photo/crop-anonymous-person-showing-donation-box-6348119/
+img-34:Photo by Timur Weber: https://www.pexels.com/photo/photo-of-a-beggar-receiving-money-from-a-person-9532336/
+img-35:Photo by Ella Olsson: https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/
+img-36: Photo by Pixabay: https://www.pexels.com/photo/baking-cheese-cooking-crust-315755/
+img-38: Photo by Alexander Dummer: https://www.pexels.com/photo/sliced-chocolate-cake-on-ceramic-saucer-132694/
+img-39: Photo by Sebastian Coman Photography : https://www.pexels.com/photo/strawberry-shake-3625372/
+img-40:Photo by <a href="https://unsplash.com/@soloeddi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eddi Aguirre</a> on <a href="https://unsplash.com/s/photos/hotel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
