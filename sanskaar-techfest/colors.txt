@@ -1,0 +1,2 @@
+main theme : #F6B10C
+news page alternate: #cc0000
