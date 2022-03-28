@@ -31,3 +31,10 @@
 .about-card h3 {
   padding: 10px;
 }
+
+@media only screen and (max-width: 350px) {
+  .about-card img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
