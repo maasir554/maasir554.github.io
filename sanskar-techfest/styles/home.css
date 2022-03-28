@@ -384,6 +384,35 @@ footer li a:hover {
   justify-content: center;
 }
 
+#deluxeRoom {
+  background-image: url(../images/img-5.jpg) !important;
+}
+#eliteRoom {
+  background-image: url(../images/img-9.jpg) !important;
+}
+#buisnessRoom {
+  background-image: url(../images/img-7.jpg) !important;
+}
+#swimmingPool {
+  background-image: url(../images/img-2.jpg);
+}
+
+.directImage {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 600px;
+}
+.social-media-icon {
+  filter: saturate(0%);
+
+  width: 30px;
+  margin: 5px;
+}
+.social-media-icon:hover {
+  filter: saturate(100%);
+}
+
 @media only screen and (max-width: 865px) {
   .navSearch {
     display: none !important;
@@ -522,33 +551,4 @@ footer li a:hover {
   #cuisines h1 {
     font-size: 20px;
   }
-}
-
-#deluxeRoom {
-  background-image: url(../images/img-5.jpg) !important;
-}
-#eliteRoom {
-  background-image: url(../images/img-9.jpg) !important;
-}
-#buisnessRoom {
-  background-image: url(../images/img-7.jpg) !important;
-}
-#swimmingPool {
-  background-image: url(../images/img-2.jpg);
-}
-
-.directImage {
-  width: 100%;
-  border-radius: 10px;
-  margin: 10px;
-  max-width: 600px;
-}
-.social-media-icon {
-  filter: saturate(0%);
-
-  width: 30px;
-  margin: 5px;
-}
-.social-media-icon:hover {
-  filter: saturate(100%);
 }
