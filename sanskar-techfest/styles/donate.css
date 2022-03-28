@@ -50,3 +50,6 @@ form select:focus {
     width: 100% !important;
   }
 }
+#country {
+  background-color: transparent;
+}
